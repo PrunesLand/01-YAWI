@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/01-yawi/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/01-yawi/static/js/main.1cde0528.chunk.js",
+    "main.js.map": "/01-yawi/static/js/main.1cde0528.chunk.js.map",
+    "runtime-main.js": "/01-yawi/static/js/runtime-main.9b5b94b0.js",
+    "runtime-main.js.map": "/01-yawi/static/js/runtime-main.9b5b94b0.js.map",
+    "static/js/2.a6c39b5c.chunk.js": "/01-yawi/static/js/2.a6c39b5c.chunk.js",
+    "static/js/2.a6c39b5c.chunk.js.map": "/01-yawi/static/js/2.a6c39b5c.chunk.js.map",
+    "static/js/3.cf058b27.chunk.js": "/01-yawi/static/js/3.cf058b27.chunk.js",
+    "static/js/3.cf058b27.chunk.js.map": "/01-yawi/static/js/3.cf058b27.chunk.js.map",
+    "index.html": "/01-yawi/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/01-yawi/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.a6c39b5c.chunk.js.LICENSE.txt": "/01-yawi/static/js/2.a6c39b5c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/01-yawi/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b5b94b0.js",
+    "static/js/2.a6c39b5c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1cde0528.chunk.js"
+  ]
+}
