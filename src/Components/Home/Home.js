@@ -1,22 +1,53 @@
-import React from "react";
-import Cover from "../CoverPage/Cover";
-import Final from "../FinalPage/Final";
-import Fourth from "../FourthPage/Fourth";
-import Second from "../SecondPage/Second";
-import Third from "../ThirdPage/Third";
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import React, { Suspense, lazy } from "react";
+import { Route, HashRouter as Router, Switch } from "react-router-dom";
+import ErrorBoundary from '../Utilities/ErrorBoundary'
+import {ThemeProvider} from 'styled-components'
+import {theme} from '../Utilities/Themes'
+
+const Cover = lazy(() => import("../CoverPage/Cover"))
+const Second = lazy(() => import("../SecondPage/Second"))
+const Third = lazy(() => import("../ThirdPage/Third"))
+const Fourth = lazy(() => import("../FourthPage/Fourth"))
+const Final = lazy(() => import("../FinalPage/Final"))
+
+
 
 const Home = () => {
 	return (
 		<>
+		<ErrorBoundary>
 			<Router>
-				<Route path='/' component={Cover} />
-				<Route path='/2' component={Second} />
+				<ThemeProvider theme={theme}>
 
-				<Route path='/3' component={Third} />
-				<Route path='/4' component={Fourth} />
-				<Route path='/5' component={Final} />
+				<Suspense fallback={<div>Loading...</div>}>
+
+				<Switch>
+				<Route path='/' exact >
+					<div style={theme}>
+
+					<Cover />
+					</div>
+
+				</Route>
+				<Route path='/2' >
+					<Second />
+				</Route>
+				<Route path='/3' >
+					<Third />
+				</Route>
+				<Route path='/4' >
+					<Fourth />
+				</Route>
+				<Route path='/5' >
+					<Final />
+				</Route>
+				
+				
+				</Switch>
+				</Suspense>
+				</ThemeProvider>
 			</Router>
+		</ErrorBoundary>	
 		</>
 	);
 };
