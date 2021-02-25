@@ -1,12 +1,19 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import theme from "../Utilities/Themes";
+import theme from "../StylingFiles/Themes";
+import GlobalStyle from "../StylingFiles/GlobalStyles";
 
 const Cover = () => {
 	return (
 		<ThemeProvider theme={theme}>
+			<GlobalStyle />
 			<section>
-				<h1>You Are Worth It.</h1>
+				<ul>
+					<li>You</li>
+					<li>Are</li>
+					<li>Worth</li>
+					<li>It.</li>
+				</ul>
 			</section>
 		</ThemeProvider>
 	);
