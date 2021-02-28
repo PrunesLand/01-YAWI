@@ -5,10 +5,26 @@ export const Nav = styled.div`
 	height: 10vh;
 	width: 100%;
 `;
-export const NavWrapper = styled.div``;
+export const NavWrapper = styled.div`
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+`;
 
-export const Previous = styled(GrFormPreviousLink)``;
+export const Previous = styled(GrFormPreviousLink)`
+	font-size: 3.5rem;
+	cursor: pointer;
+`;
 
-export const PageLoc = styled.nav``;
+export const PageLoc = styled.nav`
+	width: 30px;
+	height: 15px;
+	background-color: green;
+`;
 
-export const Next = styled(GrFormNextLink)``;
+export const Next = styled(GrFormNextLink)`
+	font-size: 3.5rem;
+	cursor: pointer;
+`;

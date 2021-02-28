@@ -4,6 +4,7 @@ import ErrorBoundary from "../ErrorBoundary";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../StylingFiles/Themes";
 import GlobalStyle from "../StylingFiles/GlobalStyles";
+import { Container } from "./HomeStyle";
 
 const Cover = lazy(() => import("../CoverPage/Cover"));
 const Second = lazy(() => import("../SecondPage/Second"));
@@ -13,7 +14,7 @@ const Final = lazy(() => import("../FinalPage/Final"));
 
 const Home = () => {
 	return (
-		<>
+		<Container>
 			<GlobalStyle />
 			<ErrorBoundary>
 				<Router>
@@ -48,7 +49,7 @@ const Home = () => {
 					</ThemeProvider>
 				</Router>
 			</ErrorBoundary>
-		</>
+		</Container>
 	);
 };
 

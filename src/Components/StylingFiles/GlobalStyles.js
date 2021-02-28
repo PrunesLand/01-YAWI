@@ -7,19 +7,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
     }
 
-    section{
-        height:100%;
-        
-    }
-
-    ul{
-        list-style:none;
-        
-    }
-
-    li{
-        font-size:8em;
-    }
+    
 `;
 
 export default GlobalStyle;
