@@ -15,12 +15,9 @@ const Cover = () => {
 			<GlobalStyle />
 			<CoverWrapper>
 				<TitleWrapper>
-					<li>You</li>
-					<li>Are</li>
-					<li>Worth</li>
-					<li>It.</li>
+					<h1>You Are Worth It.</h1>
 				</TitleWrapper>
-				<ArrowWrapper>
+				<ArrowWrapper theme={theme}>
 					<CoverNext />
 				</ArrowWrapper>
 			</CoverWrapper>

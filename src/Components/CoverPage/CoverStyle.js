@@ -1,30 +1,48 @@
 import styled from "styled-components";
 import { GrFormNextLink } from "react-icons/gr";
+import theme from "../StylingFiles/Themes";
 
 export const CoverWrapper = styled.section`
 	height: 100vh;
-	display: flex;
-	flex-direction: row;
-`;
-
-export const TitleWrapper = styled.ul`
-	height: 80vh;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding-left: 2vh;
-	padding-top: 4vh;
-	li {
-		font-size: 10rem;
+	align-items: center;
+`;
+
+export const TitleWrapper = styled.div`
+	height: 100vh;
+	width: 50vh;
+	padding-left: 2.5vh;
+	align-items: center;
+	font-size: 6rem;
+	display: flex;
+	justify-content: center;
+
+	@media screen and (min-width: 1220px) {
 		width: 100%;
 	}
 `;
 
 export const ArrowWrapper = styled.div`
-	width: 50px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
-	top: 80vh;
-	left: 40vh;
+	bottom: 12vh;
+	right: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: ${() => theme.textBg};
+	border-radius: 50%;
+	cursor: pointer;
+
+	@media screen and (min-width: 1220px) {
+		bottom: 0;
+		right: 0;
+		position: relative;
+		bottom: 20vh;
+	}
 `;
 
 export const CoverNext = styled(GrFormNextLink)`

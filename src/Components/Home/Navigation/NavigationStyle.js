@@ -4,6 +4,7 @@ import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
 export const Nav = styled.div`
 	height: 10vh;
 	width: 100%;
+	position: absolute;
 `;
 export const NavWrapper = styled.div`
 	display: flex;
