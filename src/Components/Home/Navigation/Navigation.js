@@ -1,5 +1,6 @@
 import React from "react";
 import { Router } from "react-router-dom";
+import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
 import {
 	Nav,
 	NavWrapper,
@@ -17,7 +18,9 @@ const Navigation = () => {
 		<Nav>
 			<NavWrapper>
 				<PrevWrapper>
-					<Previous />
+					<Previous to='/3'>
+						<GrFormPreviousLink />
+					</Previous>
 				</PrevWrapper>
 				<LocationWrapper>
 					<LocationList>
@@ -25,7 +28,9 @@ const Navigation = () => {
 					</LocationList>
 				</LocationWrapper>
 				<NextWrapper>
-					<Next to='/'>Next</Next>
+					<Next to='/'>
+						<GrFormNextLink />
+					</Next>
 				</NextWrapper>
 			</NavWrapper>
 		</Nav>

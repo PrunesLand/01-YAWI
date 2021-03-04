@@ -15,9 +15,8 @@ export const NavWrapper = styled.div`
 	justify-content: space-around;
 `;
 
-export const Previous = styled(GrFormPreviousLink)`
-	font-size: 3.5rem;
-	cursor: pointer;
+export const Previous = styled(Link)`
+	font-size: 3rem;
 `;
 
 export const PageLoc = styled.nav`
@@ -26,7 +25,9 @@ export const PageLoc = styled.nav`
 	background-color: green;
 `;
 
-export const Next = styled(Link)``;
+export const Next = styled(Link)`
+	font-size: 3rem;
+`;
 
 export const PrevWrapper = styled.div``;
 
