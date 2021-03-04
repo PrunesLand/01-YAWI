@@ -1,5 +1,5 @@
-import React from "react";
-import { Router } from "react-router-dom";
+import React, { useState } from "react";
+
 import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
 import {
 	Nav,
@@ -11,6 +11,8 @@ import {
 	LocationWrapper,
 	LocationList,
 	NextWrapper,
+	ListItem,
+	Item,
 } from "./NavigationStyle";
 
 const Navigation = () => {
@@ -24,7 +26,21 @@ const Navigation = () => {
 				</PrevWrapper>
 				<LocationWrapper>
 					<LocationList>
-						{/* list array of page links here here */}
+						<ListItem>
+							<Item to='/'>1</Item>
+						</ListItem>
+						<ListItem>
+							<Item to='/2'>2</Item>
+						</ListItem>
+						<ListItem>
+							<Item to='/3'>3</Item>
+						</ListItem>
+						<ListItem>
+							<Item to='/4'>4</Item>
+						</ListItem>
+						<ListItem>
+							<Item to='/5'>5</Item>
+						</ListItem>
 					</LocationList>
 				</LocationWrapper>
 				<NextWrapper>
