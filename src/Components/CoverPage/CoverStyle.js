@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { GrFormNextLink } from "react-icons/gr";
 import theme from "../StylingFiles/Themes";
+import { Link } from "react-router-dom";
 
 export const CoverWrapper = styled.section`
 	height: 100vh;
@@ -45,6 +46,6 @@ export const ArrowWrapper = styled.div`
 	}
 `;
 
-export const CoverNext = styled(GrFormNextLink)`
+export const CoverNext = styled(Link)`
 	font-size: 6rem;
 `;

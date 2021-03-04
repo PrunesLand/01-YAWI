@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 export const Nav = styled.div`
 	height: 10vh;
@@ -25,7 +26,12 @@ export const PageLoc = styled.nav`
 	background-color: green;
 `;
 
-export const Next = styled(GrFormNextLink)`
-	font-size: 3.5rem;
-	cursor: pointer;
-`;
+export const Next = styled(Link)``;
+
+export const PrevWrapper = styled.div``;
+
+export const LocationWrapper = styled.div``;
+
+export const LocationList = styled.ul``;
+
+export const NextWrapper = styled.div``;

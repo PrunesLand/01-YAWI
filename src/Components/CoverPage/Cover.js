@@ -18,7 +18,7 @@ const Cover = () => {
 					<h1>You Are Worth It.</h1>
 				</TitleWrapper>
 				<ArrowWrapper theme={theme}>
-					<CoverNext />
+					<CoverNext to='/2'>Next</CoverNext>
 				</ArrowWrapper>
 			</CoverWrapper>
 		</ThemeProvider>
