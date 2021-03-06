@@ -1,10 +1,10 @@
 import React from "react";
 import Navigation from "../Home/Navigation/Navigation";
+import { ThirdWrapper } from "../ThirdPage/ThirdStyle";
 
 const Final = () => {
 	return (
-		<div>
-			<h1>Final</h1>
+		<ThirdWrapper>
 			<p>Despite invisible to the eye, we can still make an impact.</p>
 			<p>
 				One's happiness is like a jug full of water, it is one's purpose to pour
@@ -42,7 +42,7 @@ const Final = () => {
 			</p>
 			<p>...you are worth it</p>
 			<Navigation pagePrev='/4' />
-		</div>
+		</ThirdWrapper>
 	);
 };
 

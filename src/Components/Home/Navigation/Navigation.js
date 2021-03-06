@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-
 import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
 import {
 	Nav,
 	NavWrapper,
 	Previous,
-	PageLoc,
 	Next,
 	PrevWrapper,
 	LocationWrapper,

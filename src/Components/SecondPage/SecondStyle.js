@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
-export const SecondWrapper = styled.section`
-	height: 100vh;
-`;
-
-export const Main = styled.main`
-	padding-top: 10vh;
+export const SecondMain = styled.main`
+	height: 80vh;
+	align-items: center;
 `;
 
 export const TitleWrapper = styled.div`
-	height: 5vh;
+	height: 10vh;
+	text-align: center;
+	font-size: 2rem;
 `;
 
 export const TextWrapper = styled.div`
-	height: 10vh;
+	height: 15vh;
+	font-size: 1.2rem;
+	margin: 0 3vh;
+	max-width: 50vh;
 `;
