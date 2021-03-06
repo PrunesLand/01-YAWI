@@ -15,12 +15,12 @@ import {
 	Item,
 } from "./NavigationStyle";
 
-const Navigation = () => {
+const Navigation = ({ pageNext, pagePrev }) => {
 	return (
 		<Nav>
 			<NavWrapper>
 				<PrevWrapper>
-					<Previous to='/3'>
+					<Previous to={pagePrev}>
 						<GrFormPreviousLink />
 					</Previous>
 				</PrevWrapper>
@@ -44,7 +44,7 @@ const Navigation = () => {
 					</LocationList>
 				</LocationWrapper>
 				<NextWrapper>
-					<Next to='/'>
+					<Next to={pageNext}>
 						<GrFormNextLink />
 					</Next>
 				</NextWrapper>

@@ -30,7 +30,7 @@ const Third = () => {
 					</p>
 				</TextWrapper>
 			</Main>
-			<Navigation />
+			<Navigation pageNext='/4' pagePrev='/2' />
 		</ThirdWrapper>
 	);
 };

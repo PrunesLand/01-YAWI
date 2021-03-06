@@ -24,7 +24,7 @@ const Second = () => {
 						is today
 					</p>
 				</TextWrapper>
-				<Navigation />
+				<Navigation pageNext='/3' pagePrev='/' />
 			</Main>
 		</SecondWrapper>
 	);
