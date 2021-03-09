@@ -2,6 +2,7 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import theme from "../StylingFiles/Themes";
 import GlobalStyle from "../StylingFiles/GlobalStyles";
+import { Link } from "react-router-dom";
 import {
 	CoverWrapper,
 	TitleWrapper,
@@ -18,7 +19,9 @@ const Cover = () => {
 					<h1>You Are Worth It.</h1>
 				</TitleWrapper>
 				<ArrowWrapper theme={theme}>
-					<CoverNext to='/2'>Next</CoverNext>
+					<Link to='/2'>
+						<CoverNext />
+					</Link>
 				</ArrowWrapper>
 			</CoverWrapper>
 		</ThemeProvider>

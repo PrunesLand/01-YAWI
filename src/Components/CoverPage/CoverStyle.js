@@ -9,6 +9,7 @@ export const CoverWrapper = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 0;
 `;
 
 export const TitleWrapper = styled.div`
@@ -29,8 +30,8 @@ export const ArrowWrapper = styled.div`
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	bottom: 12vh;
-	right: 20vw;
+	bottom: 10vh;
+	right: 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,6 +47,6 @@ export const ArrowWrapper = styled.div`
 	}
 `;
 
-export const CoverNext = styled(Link)`
+export const CoverNext = styled(GrFormNextLink)`
 	font-size: 6rem;
 `;

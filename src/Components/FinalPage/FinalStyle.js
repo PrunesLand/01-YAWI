@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const ThirdMain = styled.main`
+export const FifthMain = styled.main`
 	height: 80vh;
 `;

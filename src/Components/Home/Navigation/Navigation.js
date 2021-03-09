@@ -12,7 +12,7 @@ import {
 	Item,
 } from "./NavigationStyle";
 
-const Navigation = ({ pageNext, pagePrev }) => {
+const Navigation = ({ pageNext, pagePrev, show }) => {
 	return (
 		<Nav>
 			<NavWrapper>
@@ -40,7 +40,7 @@ const Navigation = ({ pageNext, pagePrev }) => {
 						</ListItem>
 					</LocationList>
 				</LocationWrapper>
-				<NextWrapper>
+				<NextWrapper show={show}>
 					<Next to={pageNext}>
 						<GrFormNextLink />
 					</Next>

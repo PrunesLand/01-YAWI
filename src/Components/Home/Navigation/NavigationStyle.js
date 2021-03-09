@@ -52,4 +52,6 @@ export const Item = styled(Link)`
 	font-size: 1.5rem;
 `;
 
-export const NextWrapper = styled.div``;
+export const NextWrapper = styled.div`
+	display: ${(show) => (show ? "block" : "none")};
+`;
