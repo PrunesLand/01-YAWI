@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { GrFormPreviousLink, GrFormNextLink } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 export const Nav = styled.div`

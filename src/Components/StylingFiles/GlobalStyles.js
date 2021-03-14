@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     section{
         height:100%;
         padding-top:10vh;
+       
     }
     
 `;

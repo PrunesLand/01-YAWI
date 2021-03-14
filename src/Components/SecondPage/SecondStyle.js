@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const SecondMain = styled.main`
-	height: 80vh;
+	height: 100%;
 	align-items: center;
+	width: 55vh;
+`;
+
+export const ContentWrapper = styled.div`
+	height: 80vh;
 `;
 
 export const TitleWrapper = styled.div`
