@@ -13,7 +13,7 @@ const Second = () => {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
-			<section theme={theme}>
+			<section >
 				<SecondMain>
 					<ContentWrapper>
 						<TitleWrapper>
@@ -26,9 +26,7 @@ const Second = () => {
 								impression that it's depth is only till what you see. Much like
 								an iceberg
 							</p>
-						</TextWrapper>
-
-						<TextWrapper>
+							<br/>
 							<p>
 								The reality of the mind is revealed when we plunge deep beneath
 								the water. Revealing a complex history that shaped it to become

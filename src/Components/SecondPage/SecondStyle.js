@@ -18,7 +18,7 @@ export const TitleWrapper = styled.div`
 
 export const TextWrapper = styled.div`
 	height: 15vh;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin: 0 3vh;
 	max-width: 50vh;
 `;
